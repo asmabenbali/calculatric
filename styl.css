@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Popping", sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e0e3eb;
+    font-weight: 600;
+
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.contant{
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+  }
+
+  h1{
+    margin: 10px;
+    font-size: 50px;
+    
+  }
+
+.display{
+    height: 80px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    text-align: right;
+    color: #000;
+    font-weight: 600;
+    font-family: cursive;
+
+}
+
+.container{
+    position: relative;
+    max-width: 400px; /* Augmenter la largeur */
+    width: 100%;
+    height: 550px; /* Augmenter la hauteur */
+    padding: 10px 20px 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+}
+
+.buttons{
+    display: grid;
+    grid-gap:30px;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 40px;
+   
+}
+.buttons button{
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #eee;
+    padding-top: 10px;
+    font-weight: 600;
+    font-family: cursive;
+}
+.buttons button:hover{
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(144, 210, 236);
+    padding-top: 10px;
+    font-weight: 600;
+    font-family: cursive;
+
+}
+
+.operator{
+    color: #2f9fff;
+}
